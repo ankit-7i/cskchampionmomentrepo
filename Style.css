@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white; /* light beige */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("./Assets/Images/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background :linear-gradient(120deg,#FFF200,#FFA500,#005A9C);*/
+
+}
+
+.logo > img {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+  margin: 20px 0;
+  
+}
+
+.eff {
+  font-size: 30px;
+  background-color: royalblue;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.h1{
+    color: orangered;
+    text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.child {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+
+.child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+
+.parent2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.child2 {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.child2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+.p{
+    font-size: 18px;
+    color: black;
+}
+footer.footer {
+  width: 100%;
+
+  background: linear-gradient(to right, #f9d423, #ff4e50);
+  
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social-links a {
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.h4 {
+  text-align: center;
+
+  color: royalblue;
+  font-size: 20px;
+  
+}
