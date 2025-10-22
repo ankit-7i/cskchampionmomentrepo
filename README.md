@@ -1,7 +1,5 @@
 # 🦁 **Chennai Super Kings – Champion Moments**
 
-![CSK Logo](<img width="247" height="204" alt="image" src="https://github.com/user-attachments/assets/ce08747d-ea98-4bcd-8a41-12f4a5d083fd" />
-)
 
 > 💛 Celebrating the Glory of **Chennai Super Kings** – The Pride of IPL!
 
